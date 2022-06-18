@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Formulário 2022</title>
+</head>
+<body>
+    
+   <form action="">
+       <main>
+            <div class="container-bg">
+                <div class="container-header">
+                    <h1>Contate-nos</h1>
+                    <p class="border"></p>
+                </div>
+                <div class="container-inputs">
+                    <h1>Preencha as informações Abaixo!</h1>
+                    <p class="separator"></p>
+                    <div class="container-up">
+                        <input type="text" name="nome" id="nome" minlength="3" placeholder="Nome" required>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input type="tel" name="tel" id="tel" min="5" max="11" placeholder="Telefone" required>
+                    </div>
+                    <div class="container-down">
+                        <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+                        <textarea name="textoarea" id="textoarea" cols="30" rows="10" placeholder="Digite sua mensagem..." minlength="10" required></textarea>
+                        <button type="submit">Enviar Agora</button>
+                    </div>
+                </div>
+            </div>
+       </main>
+   </form>
+   <footer>
+        <p>&copy; CodeByVine</p>
+   </footer>
+</body>
+</html>
